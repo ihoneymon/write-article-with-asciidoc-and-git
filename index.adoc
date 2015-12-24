@@ -1,0 +1,39 @@
+= AsciiDoc으로 글쓰기 =
+김지헌, <ihoneymon@gmail.c>
+v0.0.1, 24-12-2015
+:Author Initials: KJH
+:doctype: book
+:toc:
+:toclevels: 4
+:icons:
+:website: http://honeymon.io
+:source-highlighter: prettify
+
+최근 문서를 작성하는 과정에서 기존에는 마크다운markdown을 사용했었는데, 최근에는 아스키독(Asciidoc, link:http://asciidoc.org[])을 활용하고 있다. 
+
+마크다운과 아스키독을 사용해보면서 내린 결론은,
+
+* 마크다운(`*.md`)은 간단한 문서
+* 아스키독(`*.adoc`)은 책과 같은 형태의 문서
+
+를 작성할 때 적합하다는 것이다.
+
+그럼 지금부터 '아스키독+git' 을 조합하여 글을 쓰는 요령을 설명하겠다.
+
+
+
+== 환경설정 ==
+
+=== AsciiDoc 빌드스크립트 작성 ===
+
+=== Git 설정 ===
+. `.git/hook`로 이동
+. `post-commit` 스크립트 생성
++
+* `post-commit.sample`을 참조한다.
++
+
+
+
+
+== 실제 운영 ==
