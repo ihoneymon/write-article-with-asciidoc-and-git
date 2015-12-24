@@ -89,7 +89,7 @@ image::./images/000-before-writing.png[]
 
 . 작성
 +
-image::./images/001-writing.png
+image::./images/001-writing.png[]
 +
 
 
@@ -102,4 +102,6 @@ image::./images/002-before-commit.png[]
 . 커밋 후 'index.html` 상태
 +
 image::./images/003-after-commit.png[]
+
+image::./images/004-after-index.png[]
 +
