@@ -82,7 +82,24 @@ asciidoctor index.adoc
 이후에는 문서를 작성 후 커밋을 찍으면 깃 후크의 `post-commit`이 동작하여 `build.sh`에 의해서 아스키독이 실행되면서 생성작업이 진행된다.
 이 폴더를 드랍박스에 공유할수도 있고 깃을 통해서 저장소로 공유할 수도 있다.
 
-. 작성
-. 커밋 전 `index.html` 상태
-. 커밋 후 'index.html` 상태
+. 작성전
++
+image::./images/000-before-writing.png[]
++
 
+. 작성
++
+image::./images/001-writing.png
++
+
+
+. 커밋 전 `index.html` 상태
++
+image::./images/002-before-commit.png[]
++
+
+
+. 커밋 후 'index.html` 상태
++
+image::./images/003-after-commit.png[]
++
